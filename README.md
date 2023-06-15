@@ -24,7 +24,7 @@ STM32CubeIDE
 * Using STM32CubeIDE open the project file and buil 'debug', file location("...\GM6020_demo.ioc)
 * Using ST-Link run the project
 
-##Software Function
+## Software Function
 
 - LED Status Indicator Light：Red light twinkling represent program is running, green light twinkling represent recieve feedback CAN message from the motor
 - CAN and PWM control：The CAN output represents the calculated value of the position loop, which can control the motor to rotate to a pre-settled angle. The PWM signal can simulate the motor to operate in servo mode. The development board outputs both CAN and PWM signals, and the motor will prioritize responding to the CAN signal.
